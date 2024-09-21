@@ -1,0 +1,151 @@
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+
+}
+.VerticalTimelineElement{
+    align-items: center;
+
+
+}
+
+.VerticalTimeline {
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/* Flip card container */
+.flipCard {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    max-height: fit-content;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    cursor: pointer;
+    perspective: 1000px;
+    background-color: #ffffff;
+    text-align: justify;
+    border-color: #3498db;
+    
+    /* Perspective for 3D effect */
+}
+
+/* Flip effect on hover */
+.flipCard:hover {
+    transform: rotateY(180deg);
+    
+    /* Flip card on hover */
+}
+
+/* Front and back card settings */
+.flipCardFront,
+.flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* Hides the other side of the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.8s ease;
+    
+    /* Smooth transition */
+}
+
+/* Front side of the card */
+.flipCardFront {
+    background-color: #ffffff;
+    
+    color: black;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Back side of the card */
+.flipCardBack {
+    background-image: linear-gradient(
+    90deg,
+    rgba(255, 99, 71, 0),
+    rgba(186, 235, 245, 0)
+  );
+    color: rgb(6, 0, 0);
+    transform: rotateY(180deg);
+    /* Initially rotated */
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Styles for the icon */
+.iconDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.iconImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Vertical Timeline Line */
+.vertical-timeline::before {
+    background: #3498db;
+    /* Color of the vertical line */
+    width: 4px;
+    /* Thickness of the vertical line */
+}
+
+/* Arrow pointing to the element */
+.vertical-timeline-element-content::before {
+    border-right: 7px solid #f0f0f0;
+}
+
+/* Custom padding for better alignment */
+.vertical-timeline-element-content {
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .flipCard {
+        height: 500px;
+    }
+
+    .vertical-timeline-element-content {
+        text-align: center;
+    }
+}

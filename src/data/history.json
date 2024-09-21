@@ -1,0 +1,70 @@
+[
+  {
+    "role": "Full Stack Developer Intern",
+    "organisation": "Ford Motor Company, Canada",
+    "startDate": "May 2023",
+    "endDate": "December 2023",
+    "positions": [
+      {
+        "title": "Software Developer - VPSM Team",
+        "duration": "September 2023 - December 2023",
+        "description": ["Promoted to Junior Software Engineer to lead feature development", 
+        "oversee code quality, and mentor new interns."],
+        "startDate": "September 2023",
+        "endDate": "December 2023"
+      },
+      {
+        "title": "Software Developer- Project Management Team",
+        "duration": "May 2023 - August 2023",
+        "description": ["Promoted to Junior Software Engineer to lead feature development", 
+        "oversee code quality, and mentor new interns."],
+        "startDate": "Apr, 2018",
+        "endDate": "Oct, 2018"
+      }
+    ],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "System Software Engineer",
+    "organisation": "Tata Consultancy Services",
+    "startDate": "August 2020",
+    "endDate": "August 2022",
+    "positions": [
+      {
+        "title": "Assistant Software Engineer",
+        "duration": "May 2021 - August 2022",
+        "description": ["Promoted to Junior Software Engineer to lead feature development", 
+        "oversee code quality, and mentor new interns."],
+        "startDate": "Apr, 2018",
+        "endDate": "Oct, 2018"
+      },
+      {
+        "title": "System Software Engineer Trainee",
+        "duration": "Aug 2020 - May 2021",
+        "description": ["Promoted to Junior Software Engineer to lead feature development", 
+        "oversee code quality, and mentor new interns."],
+        "startDate": "Apr, 2018",
+        "endDate": "Oct, 2018"
+      }
+    ],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Full Stack Developer Intern",
+    "organisation": "EastWeat Electrical and Engineering Pvt. Ltd.",
+    "startDate": "Apr, 2018",
+    "endDate": "Oct, 2018",
+    "positions": [
+      {
+        "title": "Software Developer Intern",
+        "duration": "Jan 2023 - Jul 2023",
+        "description": ["Promoted to Junior Software Engineer to lead feature development", 
+        "oversee code quality, and mentor new interns."],
+        "startDate": "Apr, 2018",
+        "endDate": "Oct, 2018"
+      }
+    ],
+    "imageSrc": "history/netflix.png"
+  }
+  
+]

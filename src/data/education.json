@@ -1,0 +1,21 @@
+[
+    {
+      "University": "University of Ottawa",
+      "startDate": "September 2022",
+      "endDate": "May 2024",
+      "Degree" :"Masters in Computer Science",
+      "Major" : "Applied Artificial Intelligence",
+      "imageSrc": "education/uottawa.jpeg",
+      "RelevantCourses": "ML, NLP, AI for Cyber Security, Virtual Assistants, Fault Tolerance, Big Data Management"
+    },
+    {
+      "University": "University of Mumbai",
+      "startDate": "August 2016",
+      "endDate": "October 2020",
+      "Degree" :"Bachelors in Engineering",
+      "Major" : "Computer Engineering",
+      "imageSrc": "education/mumbai.jpeg",
+      "RelevantCourses": "Data Structures and Algorithms, System Design, Software Engineering, Cloud Computing"
+    }
+  ]
+  

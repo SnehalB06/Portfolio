@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Scene Parsing in Autonomous Vehicles",
+    "imageSrc": "projects/scene_parsing.png",
+    "description": "It is a prototype to show scene parsing in autonomous vehicles using image segmentation models such as YOLO, UNET, SAM, ResNet101 and SAM.",
+    "skills": ["Image Processing", "ReactJS","Flask","RESTful APIs","AWS","Machine Learning"],
+    "source": "https://github.com/SnehalB06/CSI6900_Scene_Parsing",
+    "category" :"Machine Learning"
+  },
+  {
+    "title": "E-Learning and Library Management System",
+    "imageSrc": "projects/LibraryMangement.png",
+    "description": "This is a project made for a college for library management and E-learning Portal for students.",
+    "skills": ["PHP", "Web Development", "Cloud Computing", "HTML","CSS","Javascript","Heroku","JawsDB"],
+    "source": "https://www.github.com",
+    "category" :"Web Development"
+  },
+  {
+    "title": "Vision-The Virtual Assistant",
+    "imageSrc": "projects/vision.jpeg",
+    "description": "This is an NLP-based chatbot that is configured with dynamic open-source APIs to perform a range of operations .",
+    "skills": ["Javascript", "Python", "RESTful APIs","Speech Recognition","Natural Language Processing"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/SnehalB06/Vision-The-Virtual-Assistant/tree/main",
+    "category" :"Natural Language Processing"
+  },
+  {
+    "title": "Food Nutrients Estimation using RCNN",
+    "imageSrc": "projects/MRCNN.jpeg",
+    "description": "This is a GUI Project that uses Region-Based CNN like Resnet101 and Mask-RCNN to estimate the nutrient of food in an input image.",
+    "skills": ["Image Processing","Python", "GUI", "Flask","Machine Learning"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/SnehalB06/Restaurant_Management.git",
+    "category" :"Machine Learning"
+  },
+  {
+    "title": "Restaurant Management System",
+    "imageSrc": "projects/restaurant.jpeg",
+    "description": "This is a project made to manage a restaurant business with user authentication, menu, customer orders and payments management.",
+    "skills": ["Python", "GUI", "Application Development", "SQlite"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/SnehalB06/Restaurant_Management.git",
+    "category" :"App Development"
+  },
+  
+  {
+    "title": "Classroom Teaching App",
+    "imageSrc": "projects/spteach.jpeg",
+    "description": "This is an android app developed for a teaching firm to  facilitate classroom learning during Covid.",
+    "skills": ["Android SDK", "Java", "Firebase"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/SnehalB06/SpTeachingAndroid.git",
+    "category" :"App Development"
+  },
+  {
+    "title": "Hotel Management System",
+    "imageSrc": "projects/hotel.jpeg",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["JSP Servlets", "Java", "Javascript","HTML","CSS","MS SQL Server"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/SnehalB06/HotelManagement.git",
+    "category" :"Web Development"
+  }
+  
+  
+  
+]
+
+

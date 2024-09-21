@@ -1,0 +1,208 @@
+/* Certificates.module.css */
+
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 400px;
+}
+
+.leftPane {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.circularScrollContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f0f0f0; /* Default color */
+    transition: all 0.3s ease-in-out;
+}
+
+.circularScrollContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.circularScrollContainer::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.circularScrollContainer::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.circularScrollContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3;
+}
+
+.circularItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #007bff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+.circularItem:hover {
+    transform: scale(1.1);
+}
+
+.certThumb {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightPane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+}
+
+.certificateDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificateImageVisible {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.zoomIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.zoomIcon:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+}
+
+.modalImage {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333333;
+}
+.circularScrollContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+    overflow-y: auto;
+    scrollbar-width: thin; /* Change to 'thin' for a sleeker look */
+    scrollbar-color: #007bff #f0f0f0; /* Customize colors */
+}
+
+.circularScrollContainer::-webkit-scrollbar {
+    width: 10px; /* Wider for better visibility */
+}
+
+.circularScrollContainer::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Track color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.circularScrollContainer::-webkit-scrollbar-thumb {
+    background-color: #007bff; /* Thumb color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.circularScrollContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .rightPane {
+        width: 100%;
+        height: 300px;
+    }
+}

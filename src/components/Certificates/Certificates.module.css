@@ -1,0 +1,134 @@
+/* Certificates.module.css */
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%; /* Adjusted for centering */
+  margin-right: 10%; /* Adjusted for centering */
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center align cards */
+}
+
+
+.card {
+  margin-top: 100px;
+  perspective: 1000px;
+  width: calc(25% - 20px); /* Fit 4 cards in a row, with gaps */
+  height: 300px;
+  cursor: pointer;
+  position: relative;
+  max-width: 500px;
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card:hover .cardInner {
+  transform: rotateY(180deg);
+}
+
+.cardFront, .cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.cardFront {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark text */
+  font-size: 1.2rem;
+  border: 2px solid #007bff; /* Blue border */
+}
+
+.cardFront:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+  border-color: #0056b3; /* Darker blue border on hover */
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9; /* Light background */
+  border: 2px solid #007bff; /* Blue border */
+}
+
+.cardBack:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+  border-color: #0056b3; /* Darker blue border on hover */
+}
+
+.certificateImage {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.modalImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modalPdf {
+  width: 100%;
+  height: 80vh;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333333;
+}

@@ -81,7 +81,7 @@ export const CertificatesJSX = () => {
           <div className={styles.modalContent}>
             <span className={styles.close} onClick={closeModal}>&times;</span>
             <img
-              src={getImageUrl{selectedCert.imageSrc}}
+              src={getImageUrl(selectedCert.imageSrc)}
               alt={`${selectedCert.courseName} certificate`}
               className={styles.modalImage}
             />

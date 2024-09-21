@@ -5,25 +5,22 @@ import certificates from "../../data/certificates.json";
 export const CertificatesJSX = () => {
   const [selectedCert, setSelectedCert] = useState(null);
   const [showModal, setShowModal] = useState(false);
-  const [categorizedCerts, setCategorizedCerts] = useState({});
+  const [certCategories, setCertCategories] = useState({});
+  const [activeCategory, setActiveCategory] = useState(null);
 
   useEffect(() => {
     // Group certificates by category
-    const groupedCerts = certificates.reduce((acc, cert) => {
-      if (!acc[cert.Category]) {
-        acc[cert.Category] = [];
-      }
+    const grouped = certificates.reduce((acc, cert) => {
+      acc[cert.Category] = acc[cert.Category] || [];
       acc[cert.Category].push(cert);
       return acc;
     }, {});
-
-    setCategorizedCerts(groupedCerts);
+    setCertCategories(grouped);
     
-    // Set the default certificate
-    const defaultCert = certificates.find(cert => cert.default);
-    if (defaultCert) {
-      setSelectedCert(defaultCert);
-    }
+    // Set default certificate
+    const defaultCert = certificates[0]; // Assuming you want the first certificate as default
+    setSelectedCert(defaultCert);
+    setActiveCategory(defaultCert.Category); // Set the category of the default cert
   }, []);
 
   const handleCertClick = (cert) => {
@@ -41,23 +38,29 @@ export const CertificatesJSX = () => {
   return (
     <section className={styles.container} id="certificates">
       <h2 className={styles.title}>Certificates</h2>
-      
+      <h4>Select Certificates:</h4>
       <div className={styles.content}>
+      <br></br>
         <div className={styles.leftPane}>
-          {Object.keys(categorizedCerts).map(category => (
-            <div key={category} className={styles.circularScrollContainer}>
-              <h3>{category}</h3>
-              {categorizedCerts[category].map((cert, idx) => (
-                <div 
-                  key={idx} 
-                  className={styles.circularItem}
-                  onClick={() => handleCertClick(cert)}
-                >
-                  <h6>{cert.courseName}</h6>
-                </div>
-              ))}
-            </div>
-          ))}
+        
+          <div className={styles.circularScrollContainer}>
+            
+            {Object.keys(certCategories).map((category) => (
+              
+              <div key={category} className={styles.certListCont}>
+                <h2 onClick={() => setActiveCategory(category)} className={styles.categoryTitle}>{category}</h2>
+                {activeCategory === category && certCategories[category].map((cert, idx) => (
+                  <div
+                    key={idx}
+                    className={styles.circularItem}
+                    onClick={() => handleCertClick(cert)}
+                  >
+                    <h6 className={styles.scrollItemList}>{cert.courseName}</h6>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
         </div>
 
         {selectedCert && (
@@ -67,7 +70,7 @@ export const CertificatesJSX = () => {
                 <img
                   src={selectedCert.imageSrc}
                   alt={`${selectedCert.courseName} certificate`}
-                  className={styles.certificateImageVisible} 
+                  className={styles.certificateImageVisible}
                 />
                 <span className={styles.zoomIcon}>🔍</span>
               </div>

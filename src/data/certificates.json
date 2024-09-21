@@ -31,12 +31,6 @@
     "Category": "Data Analysis"
   },
   {
-    "courseName": "SQL for Data Science",
-    "imageSrc": "assets\\Certificates\\SQL_DataScience.jpg",
-    "Organization": "University of California, Davis",
-    "Category": "Data Analysis"
-  },
-  {
     "courseName": "Applied Plotting, Charting & Data Representation in Python",
     "imageSrc": "assets\\Certificates\\DataViz.jpg",
     "Organization": "University of Michigan",
@@ -46,18 +40,6 @@
     "courseName": "Introduction to MongoDB",
     "imageSrc": "assets\\Certificates\\MongoDB.jpg",
     "Organization": "MongoDB Inc.",
-    "Category": "Data Analysis"
-  },
-  {
-    "courseName": "SQL for Data Science",
-    "imageSrc": "assets\\Certificates\\SQL_DataScience.jpg",
-    "Organization": "University of California, Davis",
-    "Category": "Data Analysis"
-  },
-  {
-    "courseName": "SQL for Data Science",
-    "imageSrc": "assets\\Certificates\\SQL_DataScience.jpg",
-    "Organization": "University of California, Davis",
     "Category": "Data Analysis"
   },
   {

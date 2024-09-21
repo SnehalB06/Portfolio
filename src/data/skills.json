@@ -1,12 +1,40 @@
-[
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
+[{
+  "title": "Python",
+  "imageSrc": "skills/python.png"
+},
+{
+  "title": "Javascript",
+  "imageSrc": "skills/JS.jpg"
+},
+{
+  "title": "Java",
+  "imageSrc": "skills/java.webp"
+},
+{
+  "title": "MongoDB",
+  "imageSrc": "skills/mongodb.png"
+},
+{
+  "title": "Spark",
+  "imageSrc": "skills/spark.png"
+},
+
+{
+  "title": "AWS",
+  "imageSrc": "skills/aws.png"
+},
+{
+  "title": "Django",
+  "imageSrc": "skills/dj.png"
+},
+{
+  "title": "PostGresSQL",
+  "imageSrc": "skills/postGres.png"
+},
+{
+  "title": "Flask",
+  "imageSrc": "skills/flask.png"
+},
   {
     "title": "React",
     "imageSrc": "skills/react.png"
@@ -16,15 +44,33 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
+    "title": "GraphQL    ",
     "imageSrc": "skills/graphql.png"
   },
+  
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "title": "TypeScript",
+    "imageSrc": "skills/TS.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "Docker",
+    "imageSrc": "skills/DOCKER.webp"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.jpg"
+  },
+  {
+    "title": "Jenkins",
+    "imageSrc": "skills/jenkins.png"
+  },
+  {
+    "title": "Unix",
+    "imageSrc": "skills/unix.png"
+  },
+  {
+    "title": "IBM InfoSphereSuite",
+    "imageSrc": "skills/IBM.jpeg"
   }
+  
 ]

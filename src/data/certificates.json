@@ -1,10 +1,5 @@
 [
-  {
-    "courseName": "Introduction to Deep Learning & Neural Networks with Keras",
-    "imageSrc": "assets\\Certificates\\Introduction_to_deep_Learning.jpg",
-    "Organization": "IBM",
-    "Category": "Machine Learning"
-  },
+  
   {
     "courseName": "Excel Basics for Data Analysis",
     "imageSrc": "assets\\Certificates/Excel.jpg",
@@ -12,17 +7,24 @@
     "Category": "Data Analysis"
   },
   {
+    "courseName": "Introduction to Deep Learning & Neural Networks with Keras",
+    "imageSrc": "assets\\Certificates\\Introduction_to_deep_Learning.jpg",
+    "Organization": "IBM",
+    "Category": "Machine Learning"
+  },
+  {
     "courseName": "Introduction to Data Analytics",
     "imageSrc": "assets\\Certificates\\IntroductiontoDataAnalytics.jpg",
     "Organization": "IBM",
-    "Category": "Data Analysis",
-    "default":"true"
+    "Category": "Data Analysis"
+    
   },
   {
     "courseName": "Foundations: Data, Data, Everywhere",
-    "imageSrc": "assets\\Certificates\\DataFoundationS.jpg",
+    "imageSrc": "assets\\Certificates\\DataFoundations.jpg",
     "Organization": "Google",
-    "Category": "Data Analysis"
+    "Category": "Data Analysis",
+    "default":"true"
   },
   {
     "courseName": "SQL for Data Science",

@@ -42,11 +42,8 @@ export const CertificatesJSX = () => {
       <div className={styles.content}>
       <br></br>
         <div className={styles.leftPane}>
-        
           <div className={styles.circularScrollContainer}>
-            
             {Object.keys(certCategories).map((category) => (
-              
               <div key={category} className={styles.certListCont}>
                 <h2 onClick={() => setActiveCategory(category)} className={styles.categoryTitle}>{category}</h2>
                 {activeCategory === category && certCategories[category].map((cert, idx) => (

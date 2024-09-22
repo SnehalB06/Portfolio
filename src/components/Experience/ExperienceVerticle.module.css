@@ -142,18 +142,19 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .flipCard {
-        min-height: 600px;
+        max-height: 650px;
     }
     .flipCardBack{
-        min-height: 600px;
+        max-height: 650px;
+        font-size: 12px;
 
     }
     .flipCardFront{
-        min-height: 600px;
+        max-height: 650px;
     }
 
     .vertical-timeline-element-content {
         text-align: center;
-        min-height: 600px;
+
     }
 }

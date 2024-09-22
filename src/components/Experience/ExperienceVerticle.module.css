@@ -154,5 +154,6 @@
 
     .vertical-timeline-element-content {
         text-align: center;
+        height: 600px;
     }
 }

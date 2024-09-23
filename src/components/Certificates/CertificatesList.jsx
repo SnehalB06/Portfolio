@@ -1,90 +1,79 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "./CertificatesJSX.module.css";
 import certificates from "../../data/certificates.json";
+import { getImageUrl } from "../../utils";
 
 export const CertificatesJSX = () => {
   const [selectedCert, setSelectedCert] = useState(null);
-  const [showModal, setShowModal] = useState(false);
-  const [certCategories, setCertCategories] = useState({});
-  const [activeCategory, setActiveCategory] = useState(null);
 
-  useEffect(() => {
-    // Group certificates by category
-    const grouped = certificates.reduce((acc, cert) => {
-      acc[cert.Category] = acc[cert.Category] || [];
-      acc[cert.Category].push(cert);
-      return acc;
-    }, {});
-    setCertCategories(grouped);
-    
-    // Set default certificate
-    const defaultCert = certificates[0]; // Assuming you want the first certificate as default
-    setSelectedCert(defaultCert);
-    setActiveCategory(defaultCert.Category); // Set the category of the default cert
-  }, []);
-
-  const handleCertClick = (cert) => {
+  // Open modal for selected certificate
+  const openModal = (cert) => {
     setSelectedCert(cert);
   };
 
-  const openModal = () => {
-    setShowModal(true);
-  };
-
+  // Close modal
   const closeModal = () => {
-    setShowModal(false);
+    setSelectedCert(null);
   };
 
   return (
     <section className={styles.container} id="certificates">
       <h2 className={styles.title}>Certificates</h2>
-      <h4>Select Certificates:</h4>
-      <div className={styles.content}>
-      <br></br>
-        <div className={styles.leftPane}>
-          <div className={styles.circularScrollContainer}>
-            {Object.keys(certCategories).map((category) => (
-              <div key={category} className={styles.certListCont}>
-                <h2 onClick={() => setActiveCategory(category)} className={styles.categoryTitle}>{category}</h2>
-                {activeCategory === category && certCategories[category].map((cert, idx) => (
-                  <div
-                    key={idx}
-                    className={styles.circularItem}
-                    onClick={() => handleCertClick(cert)}
-                  >
-                    <h6 className={styles.scrollItemList}>{cert.courseName}</h6>
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {selectedCert && (
-          <div className={styles.rightPane}>
-            <div className={styles.certificateDisplay}>
-              <div className={styles.imageContainer} onClick={openModal}>
+      <div className={styles.carouselWrapper}>
+        <Carousel
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop={true}
+          autoPlay={true}
+          interval={4000}
+          centerMode={true}
+          centerSlidePercentage={100} // Adjust percentage to fit nicely
+          dynamicHeight={false}
+          swipeable={true}
+        >
+          {certificates.map((cert, id) => (
+            <div key={id} className={styles.carouselCard} onClick={() => openModal(cert)}>
+              {cert.imageSrc ? (
                 <img
-                  src={selectedCert.imageSrc}
-                  alt={`${selectedCert.courseName} certificate`}
-                  className={styles.certificateImageVisible}
+                  src={getImageUrl(cert.imageSrc)}
+                  alt={`${cert.courseName} certificate`}
+                  className={styles.certificateImage}
                 />
-                <span className={styles.zoomIcon}>🔍</span>
-              </div>
+              ) : cert.pdfSrc ? (
+                <iframe
+                  src={getImageUrl(cert.pdfSrc)}
+                  title={`${cert.courseName} PDF`}
+                  className={styles.pdfFrame}
+                />
+              ) : null}
+              <p className={styles.courseName}>{cert.courseName}</p>
             </div>
-          </div>
-        )}
+          ))}
+        </Carousel>
       </div>
 
-      {showModal && (
+      {/* Modal for enlarged certificate */}
+      {selectedCert && (
         <div className={styles.modal} onClick={closeModal}>
           <div className={styles.modalContent}>
-            <span className={styles.close} onClick={closeModal}>&times;</span>
-            <img
-              src={getImageUrl(selectedCert.imageSrc)}
-              alt={`${selectedCert.courseName} certificate`}
-              className={styles.modalImage}
-            />
+            <span className={styles.close} onClick={closeModal}>
+              &times;
+            </span>
+            {selectedCert.imageSrc ? (
+              <img
+                src={selectedCert.imageSrc}
+                alt={`${selectedCert.courseName} certificate`}
+                className={styles.modalImage}
+              />
+            ) : selectedCert.pdfSrc ? (
+              <iframe
+                src={selectedCert.pdfSrc}
+                title={`${selectedCert.courseName} PDF`}
+                className={styles.modalPdf}
+              />
+            ) : null}
           </div>
         </div>
       )}

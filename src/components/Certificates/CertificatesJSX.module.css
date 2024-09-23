@@ -1,169 +1,60 @@
 /* Certificates.module.css */
-
-.container {
+  
+  .container {
     color: var(--color-text);
     margin-top: 79px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.title {
+    margin-left: 10%; /* Adjusted for centering */
+    margin-right: 10%; /* Adjusted for centering */
+  }
+  
+  .title {
+    color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    min-height: 400px;
-}
-
-.leftPane {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    padding: 20px;
-    border-radius: 20px;
-    overflow: hidden;
-    text-align: left;
-    border: #007bff 1px solid;
-    margin-top: 10px;
-}
-.categoryTitle{
     
-    border-radius: 20px;
-    padding: 10px;
-    margin-left: 2px;
-    background-color: #5387f4;
-    
-}
-
-.circularScrollContainer {
+  }
+  
+  .content {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 10px;
-    overflow-y: auto;
-    scrollbar-width:20px;
-    scrollbar-color: #f5f6f8 #da0303; /* Default color */
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 2px;
-}
-
-.circularScrollContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    overflow-y: auto;
-    scrollbar-width: thin; /* Make scrollbar thinner */
-     /* Change scrollbar colors */
-}
-
-.circularScrollContainer::-webkit-scrollbar {
-    width: 10px; /* Width of the scrollbar */
-}
-
-.circularScrollContainer::-webkit-scrollbar-track {
-    background-color: #f0f0f0; /* Track color */
-    border-radius: 10px;
-}
-
-.circularScrollContainer::-webkit-scrollbar-thumb { /* Thumb color */
-    border-radius: 10px;
-    transition: background-color 0.3s;
-}
-
-.circularScrollContainer::-webkit-scrollbar-thumb:hover {
-    background-color: #0056b3; /* Darken on hover */
-}
-.certListCont{
-    padding: 2px;
-    align-items: baseline;
-}
-.circularItem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center align cards */
+  }
+  
+  
+  .carouselWrapper {
     padding-top: 20px;
-    padding: 10px;
-    margin-top: 2px;
-    border: 1px solid #0056b3;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    min-width: 300px;
-    border-radius: 20px;
-}
-.scrollItemList{
-    padding: 5px;
-    margin-bottom: 2px;
-    scroll-padding: 2px;
-}
+    margin: 0 auto;
+    width: 50%; /* Adjust to center */
+    
+  }
+  .pdfFrame{
 
-.circularItem:hover {
-    transform: scale(1.1);
-}
-
-.certThumb {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.rightPane {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #007bff;
-}
-
-.certificateDisplay {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.certificateImageVisible {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 10px;
-}
-
-.imageContainer {
-    position: relative;
-}
-
-.zoomIcon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 50%;
-    padding: 5px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
-
-.zoomIcon:hover {
-    transform: scale(1.1);
-}
-
-.modal {
+    height: 100%;
+  }
+  
+  .carouselCard {
+    text-align: center;
+  }
+  
+  .courseName {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333333;
+  }
+  
+  .certificateImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .modal {
     position: fixed;
     top: 0;
     left: 0;
-    min-height: 400px;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -171,9 +62,9 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-}
-
-.modalContent {
+  }
+  
+  .modalContent {
     position: relative;
     background-color: #ffffff;
     padding: 20px;
@@ -181,64 +72,40 @@
     max-width: 90%;
     max-height: 90%;
     overflow: auto;
-}
-
-.modalImage {
+  }
+  
+  .modalImage {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 10px;
-}
-
-.close {
+  }
+  
+  .modalPdf {
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .close {
     position: absolute;
     top: 10px;
     right: 20px;
     font-size: 2rem;
     cursor: pointer;
     color: #333333;
-}
-.circularScrollContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: left;
-    height: 400px;
-    overflow-y: auto;
-    scrollbar-width: thin; /* Change to 'thin' for a sleeker look */
-    scrollbar-color: #007bff #f0f0f0; /* Customize colors */
-}
-
-.circularScrollContainer::-webkit-scrollbar {
-    width: 10px; /* Wider for better visibility */
-}
-
-.circularScrollContainer::-webkit-scrollbar-track {
-    background-color: #f0f0f0; /* Track color */
-    border-radius: 10px; /* Rounded corners */
-}
-
-.circularScrollContainer::-webkit-scrollbar-thumb {
-    background-color: #007bff; /* Thumb color */
-    border-radius: 10px; /* Rounded corners */
-}
-
-.circularScrollContainer::-webkit-scrollbar-thumb:hover {
-    background-color: #0056b3; /* Darker on hover */
-}
-
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .carouselWrapper {
+      width: 80%;
     }
-    .leftPane{
-        width: 100%;
-
+  
+    .courseName {
+      font-size: 1rem;
     }
-
-    .rightPane {
-        width: 100%;
-        height: 300px;
+  
+    .container {
+      margin-left: 5%;
+      margin-right: 5%;
     }
-}
+  }
+  

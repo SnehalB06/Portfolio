@@ -70,10 +70,10 @@
     background: linear-gradient(
       45deg,
       
-      var(--color-primary),
+      #8bb1e6,
       rgb(241, 241, 241)
     );
-    border: 3px var(--color-text) solid;
+    border: 1px var(--color-text) solid;
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(94, 93, 93, 0.25);
   }

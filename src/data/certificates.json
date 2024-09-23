@@ -2,51 +2,52 @@
   
   {
     "courseName": "Excel Basics for Data Analysis",
-    "imageSrc": "assets\\Certificates/Excel.jpg",
+    "imageSrc": "Certificates/Excel.jpg",
+    
     "Organization": "IBM",
     "Category": "Data Analysis"
   },
   {
     "courseName": "Introduction to Deep Learning & Neural Networks with Keras",
-    "imageSrc": "assets\\Certificates\\Introduction_to_deep_Learning.jpg",
+    "imageSrc": "Certificates/Introduction_to_deep_Learning.jpg",
     "Organization": "IBM",
     "Category": "Machine Learning"
   },
   {
     "courseName": "Introduction to Data Analytics",
-    "imageSrc": "assets\\Certificates\\IntroductiontoDataAnalytics.jpg",
+    "imageSrc": "Certificates/IntroductiontoDataAnalytics.jpg",
     "Organization": "IBM",
     "Category": "Data Analysis"
     
   },
   {
     "courseName": "Foundations: Data, Data, Everywhere",
-    "imageSrc": "assets\\Certificates\\DataFoundations.jpg",
+    "imageSrc": "Certificates/DataFoundations.jpg",
     "Organization": "Google",
-    "Category": "Data Analysis",
-    "default":"true"
+    "Category": "Data Analysis"
+    
   },
   {
     "courseName": "SQL for Data Science",
-    "imageSrc": "assets\\Certificates\\SQL_DataScience.jpg",
+    "imageSrc": "Certificates/SQL_DataScience.jpg",
     "Organization": "University of California, Davis",
     "Category": "Data Analysis"
   },
   {
     "courseName": "Applied Plotting, Charting & Data Representation in Python",
-    "imageSrc": "assets\\Certificates\\DataViz.jpg",
+    "imageSrc": "Certificates/DataViz.jpg",
     "Organization": "University of Michigan",
     "Category": "Data Analysis"
   },
   {
     "courseName": "Introduction to MongoDB",
-    "imageSrc": "assets\\Certificates\\MongoDB.jpg",
+    "imageSrc": "Certificates/MongoDB.jpg",
     "Organization": "MongoDB Inc.",
     "Category": "Data Analysis"
   },
   {
     "courseName": "Data Wrangling, Analysis and AB Testing with SQL",
-    "imageSrc": "assets\\Certificates\\DataWrangling.jpg",
+    "imageSrc": "Certificates/DataWrangling.jpg",
     "Organization": "University of California, Davis",
     "Category": "Data Analysis"
   }

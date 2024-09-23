@@ -3,7 +3,7 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: #8bb1e6;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -51,11 +51,15 @@
     flex-direction: column;
     gap: 23px;
   }
-
+  .title{
+    font-size: 20px;
+    font-weight: 100;
+  }
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: medium;
   }
 
   .links {

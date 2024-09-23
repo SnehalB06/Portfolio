@@ -24,7 +24,7 @@ export const Experience= () => {
         <section className={styles.container} id="experience">
             <h2 className={styles.title}>Experience</h2>
             <VerticalTimeline className={styles.VerticalTimelineElement} 
-            lineColor={ '#000000'} 
+            lineColor={ '#8bb1e6' } 
             linewidth={'2px'}
             animate ={true}
             layout={ '2-columns' }

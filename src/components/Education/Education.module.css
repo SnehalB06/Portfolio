@@ -47,11 +47,10 @@
 }
 
 .aboutItem:hover {
-  background-color: rgba(132, 181, 190, 0.5);
   background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 70%,
-    rgb(154, 202, 241) 120%
+
+    rgba(255, 255, 255, 1) 80%,
+    var(--color-primary)
   );
   transform: translateY(-5px);
 }

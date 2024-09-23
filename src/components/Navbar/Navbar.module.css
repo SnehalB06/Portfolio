@@ -52,6 +52,7 @@
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
+    
   }
 
   .menuBtn {
@@ -65,12 +66,14 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
+    background: rgba(245, 247, 248, 0.986) 0%;
     background: linear-gradient(
       45deg,
-      rgba(253, 253, 253, 0.986) 0%,
-      var(--color-primary)
+      
+      var(--color-primary),
+      rgb(241, 241, 241)
     );
+    border: 3px var(--color-text) solid;
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(94, 93, 93, 0.25);
   }

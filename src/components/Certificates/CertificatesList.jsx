@@ -63,13 +63,13 @@ export const CertificatesJSX = () => {
             </span>
             {selectedCert.imageSrc ? (
               <img
-                src={selectedCert.imageSrc}
+                src={getImageUrl(selectedCert.imageSrc)}
                 alt={`${selectedCert.courseName} certificate`}
                 className={styles.modalImage}
               />
             ) : selectedCert.pdfSrc ? (
               <iframe
-                src={selectedCert.pdfSrc}
+                src={getImageUrl(selectedCert.pdfSrc)}
                 title={`${selectedCert.courseName} PDF`}
                 className={styles.modalPdf}
               />

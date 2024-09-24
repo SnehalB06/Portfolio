@@ -149,19 +149,19 @@
 @media (max-width: 768px) {
     .flipCard {
         max-height: 750px;
-        min-height: 600px;
+        min-height: 400px;
         
     }
     .flipCardBack{
         max-height: 750px;
         font-size: 12px;
-        min-height: 350px;
+        min-height: 400px;
         text-align: left;
 
     }
     .flipCardFront{
         max-height: 700px;
-        min-height: 600px;
+        min-height: 400;
     }
 
     .vertical-timeline-element-content {

@@ -19,15 +19,43 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 40px;
 }
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filterButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-light);
+  color: var(--color-text);
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+  background-color: var(--color-primary);
+}
+
+.active {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
 
 .skills {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .skill {
@@ -36,6 +64,7 @@
   align-items: left;
   gap: 11px;
 }
+
 
 .skillImageContainer {
   background-color: var(--color-background);
@@ -58,9 +87,18 @@
   font-weight: 500;
 }
 
-
-
 @media screen and (max-width: 830px) {
+  .container
+   {
+    flex-direction: column-reverse;
+  }
+  .filterContainer{
+    flex-direction: column;
+  }
+
+  .content {
+    align-items: center;
+  }
   .content {
     flex-direction: column;
     align-items: center;
@@ -78,3 +116,5 @@
     gap: 9px;
   }
 }
+
+

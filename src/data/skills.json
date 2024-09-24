@@ -1,76 +1,125 @@
 [{
   "title": "Python",
-  "imageSrc": "skills/python.png"
+  "imageSrc": "skills/python.png",
+  "category":"Programming Languages"
 },
 {
   "title": "Javascript",
-  "imageSrc": "skills/JS.jpg"
+  "imageSrc": "skills/JS.jpg",
+  "category":"Programming Languages"
 },
 {
   "title": "Java",
-  "imageSrc": "skills/java.webp"
+  "imageSrc": "skills/java.webp",
+  "category":"Programming Languages"
 },
 {
   "title": "MongoDB",
-  "imageSrc": "skills/mongodb.png"
+  "imageSrc": "skills/mongodb.png",
+  "category":"Database & SQL"
 },
 {
   "title": "Spark",
-  "imageSrc": "skills/spark.png"
+  "imageSrc": "skills/spark.png",
+  "category":"Database & SQL"
 },
 
 {
   "title": "AWS",
-  "imageSrc": "skills/aws.png"
+  "imageSrc": "skills/aws.png",
+  "category":"Cloud Computing"
 },
 {
   "title": "Django",
-  "imageSrc": "skills/dj.png"
+  "imageSrc": "skills/dj.png",
+  "category":"Software Development Framework"
 },
 {
   "title": "PostGresSQL",
-  "imageSrc": "skills/postGres.png"
+  "imageSrc": "skills/postGres.png",
+  "category":"Database & SQL"
 },
 {
   "title": "Flask",
-  "imageSrc": "skills/flask.png"
+  "imageSrc": "skills/flask.png",
+  "category":"Software Development Framework"
 },
   {
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react.png",
+    "category":"Software Development Framework"  
   },
   {
     "title": "Node",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/node.png",
+    "category":"Software Development Framework"
   },
   {
     "title": "GraphQL    ",
-    "imageSrc": "skills/graphql.png"
+    "imageSrc": "skills/graphql.png",
+    "category":"Software Development Framework"
   },
   
   {
     "title": "TypeScript",
-    "imageSrc": "skills/TS.png"
+    "imageSrc": "skills/TS.png",
+    "category":"Software Development Framework"
   },
   {
     "title": "Docker",
-    "imageSrc": "skills/DOCKER.webp"
+    "imageSrc": "skills/DOCKER.webp",
+    "category":"CICD"
   },
   {
     "title": "Git",
-    "imageSrc": "skills/git.jpg"
+    "imageSrc": "skills/git.jpg",
+    "category":"CICD"
   },
   {
     "title": "Jenkins",
-    "imageSrc": "skills/jenkins.png"
+    "imageSrc": "skills/jenkins.png",
+    "category":"CICD"
   },
   {
     "title": "Unix",
-    "imageSrc": "skills/unix.png"
+    "imageSrc": "skills/unix.png",
+    "category":"Programming Languages"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/CPLUS.png",
+    "category":"Programming Languages"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/cSHARP.jpeg",
+    "category":"Programming Languages"
+  },
+  {
+    "title": "TensorFlow",
+    "imageSrc": "skills/tf.png",
+    "category":"Machine Learning and Data Science"
+  },
+  
+  {
+    "title": "Tableau",
+    "imageSrc": "skills/TB.png",
+    "category":"Machine Learning and Data Science"
+  },
+  {
+    "title": "Keras",
+    "imageSrc": "skills/keras.png",
+    "category":"Machine Learning and Data Science"
   },
   {
     "title": "IBM InfoSphere Suite",
-    "imageSrc": "skills/IBM.jpeg"
+    "imageSrc": "skills/IBM.jpeg",
+    "category":"Data Warehouse and ETL tool"
+  },
+  {
+    "title": "IBM Urban Code Deploy",
+    "imageSrc": "skills/UCD.jpg",
+    "category":"CICD"
   }
   
 ]

@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 350px;
+  margin-top: 76px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -39,7 +39,7 @@
   border-radius: 20px;
   padding: 2rem;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(119, 119, 119, 0.1);
   transition: background-color 0.4s ease, transform 0.3s ease;
   width: calc(50% - 1rem); /* Adjust width for two items per row */
   box-sizing: border-box; /* Include padding and border in width calculation */
@@ -48,10 +48,11 @@
 
 .aboutItem:hover {
   background: radial-gradient(
-
-    rgba(255, 255, 255, 1) 80%,
-    var(--color-primary)
-  );
+      circle,
+      #cbd6e6,
+      rgb(252, 253, 253)
+      
+    );
   transform: translateY(-5px);
 }
 

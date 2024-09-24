@@ -10,6 +10,7 @@ import { Certificates } from "./components/Certificates/Certificates";
 import {Experience } from "./components/Experience/ExperienceVerticle"
 import { CertificatesJSX } from "./components/Certificates/CertificatesList";
 import { Skills } from "./components/Skills/Skills";
+
 function App() {
   return (
     <div className={styles.App}>
@@ -21,7 +22,6 @@ function App() {
       <Experience/>
       <Projects />
       <CertificatesJSX/>
-      
       <Contact />
     </div>
   );

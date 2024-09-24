@@ -1,0 +1,104 @@
+:root {
+    /* Text Colors */
+    --color-text: #1a1a1a;
+    --color-accent-text: #ffffff;
+  
+    /* Gradient Colors */
+    --color-primary-gradient: linear-gradient(135deg, #4688f9, #1e88e5);
+    --color-secondary-gradient: linear-gradient(135deg, #1e88e5, #1565c0);
+    --color-dark-gradient: linear-gradient(135deg, #0d47a1, #0d1b2a);
+  
+    /* Background Colors */
+    --color-bg: #f0f4ff;
+    --color-bg-dark: #0d1b2a;
+  
+    /* Button Gradient */
+    --color-btn-gradient: linear-gradient(135deg, #1565c0, #1e88e5);
+    --color-btn-hover-gradient: linear-gradient(135deg, #1e88e5, #4688f9);
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    margin: 0;
+  }
+  
+  .portfolio-container {
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: var(--color-primary-gradient);
+    padding: 50px 0;
+    color: var(--color-accent-text);
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .primary-btn {
+    background: var(--color-btn-gradient);
+    color: var(--color-accent-text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .primary-btn:hover {
+    background: var(--color-btn-hover-gradient);
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px 20px;
+    background: var(--color-secondary-gradient);
+    color: var(--color-accent-text);
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Work Section */
+  .work {
+    padding: 40px 20px;
+    background: var(--color-bg);
+  }
+  
+  .work h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .work-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .work-card {
+    background: var(--color-secondary-gradient);
+    color: var(--color-accent-text);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px var(--color-dark-gradient);
+  }
+  
+  /* Footer Section */
+  .footer {
+    padding: 20px;
+    background: var(--color-dark-gradient);
+    color: var(--color-accent-text);
+  }
+  

@@ -12,11 +12,13 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .content {
     display: flex;
     flex-direction: row;
+
 
 }
 .VerticalTimelineElement{
@@ -48,7 +50,7 @@
       rgb(252, 253, 253)
     );
     text-align: justify;
-    border: solid 1px var(--color-primary);
+    border: solid 1px var(--color-text);
         border-radius: 10px;
     
     /* Perspective for 3D effect */
@@ -85,7 +87,7 @@
     background-color: #ffffff;
     color: black;
     border: 1px solid #ddd;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(138, 138, 138, 0.1);
     
 }
 
@@ -100,7 +102,7 @@
     transform: rotateY(180deg);
     /* Initially rotated */
     border: 1px solid #ddd;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(136, 135, 135, 0.1);
     padding: 30px;
 }
 
@@ -120,7 +122,7 @@
     height: 100%;
     object-fit: contain;
     border-radius: 50%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 6px rgba(137, 136, 136, 0.2);
 }
 
 /* Vertical Timeline Line */
@@ -154,6 +156,7 @@
         max-height: 750px;
         font-size: 12px;
         min-height: 350px;
+        text-align: left;
 
     }
     .flipCardFront{

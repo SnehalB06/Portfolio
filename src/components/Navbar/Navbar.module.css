@@ -68,8 +68,8 @@
     border-radius: 10px;
     background: linear-gradient(
       0deg,
-      #8bb1e6,
-      rgb(241, 241, 241)
+      #cbd6e6,
+      rgb(252, 253, 253)
     );
     border: 1px var(--color-text) solid;
     padding: 24px 33px;

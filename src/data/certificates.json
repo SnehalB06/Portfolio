@@ -20,13 +20,7 @@
     "Category": "Data Analysis"
     
   },
-  {
-    "courseName": "Foundations: Data, Data, Everywhere",
-    "imageSrc": "Certificates/DataFoundations.jpg",
-    "Organization": "Google",
-    "Category": "Data Analysis"
-    
-  },
+  
   {
     "courseName": "SQL for Data Science",
     "imageSrc": "Certificates/SQL_DataScience.jpg",
@@ -45,6 +39,7 @@
     "Organization": "MongoDB Inc.",
     "Category": "Data Analysis"
   },
+  
   {
     "courseName": "Data Wrangling, Analysis and AB Testing with SQL",
     "imageSrc": "Certificates/DataWrangling.jpg",

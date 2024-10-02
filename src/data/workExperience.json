@@ -20,7 +20,7 @@
         "duration": "May 2023 - August 2023",
         "organisation": "Ford Motor Company, Canada",
         "description": [
-            "Built a GUI tool using MVC architecture with Django for automotive software for Project Management Team.",
+            "Developed a project management GUI tool using Django and MVC, resulting in a 40% faster delivery.",
             "Refactored and diagnosed code to debug the defects, and optimized code quality with SonarQube, reducing code complexity and improving code coverage by 20%."
         ],
         "startDate": "Apr, 2018",
@@ -36,8 +36,7 @@
         "description": [
             "Launched 30+ RESTful APIs, collaborating with Stakeholders to optimize data exchange for Data Office.",
             "Designed and monitored scalable ETL Data Pipelines with IBM DataStage, Unix and Python scripts, reducing data processing time by 35%.",
-            "Engineered data processing solutions and schema designs maintaining data integrity and data quality controls.",
-            "Leveraged Tableau for data analysis to identify trends, resulting in a 25% increase in development productivity."
+            "Engineered data processing solutions and schema designs maintaining data integrity and data quality controls."
         ],
         "startDate": "Apr, 2018",
         "endDate": "Oct, 2018",
@@ -50,10 +49,11 @@
         "organisation": "Tata Consultancy Services",
         "duration": "Aug 2020 - May 2021",
         "description": [
-            "Monitored Software upgrades, security compliance and troubleshooting UAT and Production Environments for the Applications Team.",
+            
             "Constructed interactive web modules using Django and PostgreSQL, delivering a robust system for over 500 users.",
+            "Monitored Software upgrades, security compliance and troubleshooting UAT and Production Environments for the Applications Team.",
             "Orchestrated CI/CD data-quality pipeline using Jenkins and UCD, integrating data validation and error checking,decreasing manual efforts by 25%.",
-            "Contributed actively in scrum meetings and conducted code reviews adhering to coding standards."
+            "Enhanced team efficiency by actively participating in 200+ scrum meetings, facilitating swift issue resolution."
         ],
         "startDate": "Apr, 2018",
         "endDate": "Oct, 2018",
@@ -66,9 +66,11 @@
         "organisation": "EastWeat Electrical and Engineering Pvt. Ltd.",
         "duration": "Jan 2023 - Jul 2023",
         "description": [
-            "Initiated and led the implementation of micro-services architecture modules for a Calibration Certificate Generation System using Django and SQLAlchemy, adhering to security compliance.",
+            "Initiated and led the implementation of micro-services architecture modules for a Calibration Certificate Generation System using Django and SQLAlchemy.",
             "Prepared detailed documentation on Confluence for micro-services architecture, enhancing team efficiency.",
-            "Improved operational efficiency of SQL databases by 20% using 10+ triggers and procedures."
+            "Improved operational efficiency of SQL databases by 20% using 10+ triggers and procedures.",
+            "Leveraged Tableau for data analysis to identify trends, resulting in a 25% increase in development productivity."
+
         ],
         "startDate": "Apr, 2018",
         "endDate": "Oct, 2018",

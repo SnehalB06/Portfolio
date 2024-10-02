@@ -58,6 +58,7 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+    margin-right: -30px;
   }
 
   .menuItems {

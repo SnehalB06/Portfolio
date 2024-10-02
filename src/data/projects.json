@@ -8,11 +8,19 @@
     "category" :"Machine Learning"
   },
   {
+    "title": "PortFolio Website",
+    "imageSrc": "projects/portfolio.jpeg",
+    "description": "This is a portfolio website showcasing all the projects, certificates and contact links.",
+    "skills": ["Web Development", "Cloud Computing", "HTML","CSS","Javascript","ReactJS","AWS"],
+    "source": "https://github.com/SnehalB06/Portfolio.git",
+    "category" :"Web Development"
+  },
+  {
     "title": "E-Learning and Library Management System",
     "imageSrc": "projects/LibraryMangement.png",
     "description": "This is a project made for a college for library management and E-learning Portal for students.",
     "skills": ["PHP", "Web Development", "Cloud Computing", "HTML","CSS","Javascript","Heroku","JawsDB"],
-    "source": "https://www.github.com",
+    "source": "https://github.com/SnehalB06/E-Learn-CCL.git",
     "category" :"Web Development"
   },
   {

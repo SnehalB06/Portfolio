@@ -5,10 +5,6 @@ import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const downloadResume = () => {
-    // Triggers download of the resume PDF
-    window.open("/assets/nav/Snehal_Sudhir_Bhole_SW.pdf", '_blank');
-  };
 
   return (
     <nav className={styles.navbar}>
@@ -38,9 +34,6 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#education">Education</a>
-          </li>
-          <li>
-            <a onClick={downloadResume}>Resume</a>
           </li>
           <li>
             <a href="#experience">Experience</a>

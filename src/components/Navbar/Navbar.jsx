@@ -42,6 +42,9 @@ export const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
+          <a href="..\assets\nav\Snehal_Sudhir_Bhole_SW.pdf" download="Snehal_Sudhir_Bhole_Resume.pdf" style={styles.downloadLink}>Resume</a>
+          </li>
+          <li>
             <a href="#certificates">Certificates</a>
           </li>
           <li>

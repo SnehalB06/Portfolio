@@ -5,9 +5,10 @@
         "organisation": "Ford Motor Company, Canada",
         "duration": "September 2023 - December 2023",
         "description": [
-            "Crafted Python scripts for data processing and in-depth testing of script engine using Slash and Python APIs, reducing testing time by 30%.",
+            "Crafted scripts for data processing and testing using Slash, Selenium and TestRail, reducing testing time by 30%.",
             "Worked on AI-based Advanced Driver Assistance System’s REST API integration for Autonomous vehicle software.",
-            "Automated tests implementing Test-Driven development principles for script engine, increasing reliability by 15%."
+            "Automated tests implementing Test-Driven development principles for script engine, increasing reliability by 15%.",
+            "Configured and maintained servers and automotive software on Linux, QNX and Windows platforms, ensuring system reliability and performance."
         ],
         "startDate": "September 2023",
         "endDate": "December 2023",
@@ -20,8 +21,10 @@
         "duration": "May 2023 - August 2023",
         "organisation": "Ford Motor Company, Canada",
         "description": [
-            "Developed a project management GUI tool using Django and MVC, resulting in a 40% faster delivery.",
-            "Refactored and diagnosed code to debug the defects, and optimized code quality with SonarQube, reducing code complexity and improving code coverage by 20%."
+            "Developed a project management GUI tool using Django, ReactJS and MVC, resulting in a 40% faster delivery.",
+            "Refactored and diagnosed code to debug the defects, and optimized code quality with SonarQube, reducing code complexity and improving code coverage by 20%.",
+            "Performed complex spatial and time series data analysis and visualizations using Tableau on Vehicle Diagnostics data and logistics datasets files (CSV, XML, DBC files, etc),  providing actionable insights to stakeholders.",
+            "Developed and implemented data modelling solutions, utilizing programming languages such as SQL, MongoDB."
         ],
         "startDate": "Apr, 2018",
         "endDate": "Oct, 2018",
@@ -36,7 +39,9 @@
         "description": [
             "Launched 30+ RESTful APIs, collaborating with Stakeholders to optimize data exchange for Data Office.",
             "Designed and monitored scalable ETL Data Pipelines with IBM DataStage, Unix and Python scripts, reducing data processing time by 35%.",
-            "Engineered data processing solutions and schema designs maintaining data integrity and data quality controls."
+            "Engineered data processing solutions and schema designs maintaining data integrity and data quality controls.",
+            "Optimized queries for faster retrieval of data, ensuring robust performance in a distributed environment, increasing efficiency by 15%.",
+            "Engineered Multi-dimensional Data modelling solutions and monitored data profiling and quality analysis jobs"
         ],
         "startDate": "Apr, 2018",
         "endDate": "Oct, 2018",
@@ -51,9 +56,9 @@
         "description": [
             
             "Constructed interactive web modules using Django and PostgreSQL, delivering a robust system for over 500 users.",
-            "Monitored Software upgrades, security compliance and troubleshooting UAT and Production Environments for the Applications Team.",
-            "Orchestrated CI/CD data-quality pipeline using Jenkins and UCD, integrating data validation and error checking,decreasing manual efforts by 25%.",
-            "Enhanced team efficiency by actively participating in 200+ scrum meetings, facilitating swift issue resolution."
+            "Monitored Software upgrades, security compliance and troubleshooting UAT, QA and Production Environments for the Applications Team.",
+            "Orchestrated CI/CD data-quality pipeline using Containerized Jenkins and UCD, integrating data validation and error checking, decreasing manual efforts by 25%.",
+            "Enhanced team efficiency by participating in 200+ scrum meetings and code reviews adhering to coding standards."
         ],
         "startDate": "Apr, 2018",
         "endDate": "Oct, 2018",
@@ -69,7 +74,8 @@
             "Initiated and led the implementation of micro-services architecture modules for a Calibration Certificate Generation System using Django and SQLAlchemy.",
             "Prepared detailed documentation on Confluence for micro-services architecture, enhancing team efficiency.",
             "Improved operational efficiency of SQL databases by 20% using 10+ triggers and procedures.",
-            "Leveraged Tableau for data analysis to identify trends, resulting in a 25% increase in development productivity."
+            "Leveraged Tableau for data analysis to identify trends, resulting in a 25% increase in development productivity.",
+           "Utilized Linux for server management, scripting, and troubleshooting, enhancing system reliability and efficiency."
 
         ],
         "startDate": "Apr, 2018",

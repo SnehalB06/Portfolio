@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
-import resume from '../../../assets/nav/Snehal_Sudhir_Bhole_SW.pdf';
+import resume from '../../../assets/nav/Snehal_Sudhir_Bhole.pdf';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

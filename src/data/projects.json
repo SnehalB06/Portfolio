@@ -8,6 +8,14 @@
     "category" :"Machine Learning"
   },
   {
+    "title": "ToDo App using ReactJS and TypeScript",
+    "imageSrc": "projects/TODO.jpeg",
+    "description": "This user-friendly Todo App is designed to help users manage their tasks efficiently. The intuitive interface allows users to easily add, edit, and delete tasks, set reminders, and organize their to-do lists by categories.",
+    "skills": ["ReactJS","TypeScript"],
+    "source": "https://github.com/SnehalB06/silver-waffle.git",
+    "category" :"Web Development"
+  },
+  {
     "title": "E-Learning and Library Management System",
     "imageSrc": "projects/LibraryMangement.png",
     "description": "This is a project made for a college for library management and E-learning Portal for students.",
